@@ -22,6 +22,8 @@
     
     //PRUEBA DE CARGA GIT
     
+    //Nueva Carga desde MAC.
+    
     
     [GIDSignIn sharedInstance].uiDelegate = self;
     
