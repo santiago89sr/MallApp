@@ -19,6 +19,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    
+    //PRUEBA DE CARGA GIT
+    
+    
     [GIDSignIn sharedInstance].uiDelegate = self;
     
     self.beaconManager = [ESTBeaconManager new];
