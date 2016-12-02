@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F160F59F8E9FBB59E939998 /* libPods-MallApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA085B1AF3D5E7D00D5B8F13 /* libPods-MallApp.a */; };
 		A350C48A1D932F3600452F8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A350C4891D932F3600452F8D /* main.m */; };
 		A350C48D1D932F3600452F8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A350C48C1D932F3600452F8D /* AppDelegate.m */; };
 		A350C4901D932F3600452F8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A350C48F1D932F3600452F8D /* ViewController.m */; };
@@ -15,6 +16,26 @@
 		A350C4981D932F3600452F8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A350C4961D932F3600452F8D /* LaunchScreen.storyboard */; };
 		A350C4A31D932F3600452F8D /* MallAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A350C4A21D932F3600452F8D /* MallAppTests.m */; };
 		A350C4AE1D932F3600452F8D /* MallAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A350C4AD1D932F3600452F8D /* MallAppUITests.m */; };
+		A350C4BE1D93309D00452F8D /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A350C4BD1D93309D00452F8D /* SWRevealViewController.m */; };
+		A350C4C21D933A3500452F8D /* OfertaView.m in Sources */ = {isa = PBXBuildFile; fileRef = A350C4C11D933A3500452F8D /* OfertaView.m */; };
+		A350C4C61D93407000452F8D /* CellOfertaView.m in Sources */ = {isa = PBXBuildFile; fileRef = A350C4C51D93407000452F8D /* CellOfertaView.m */; };
+		A369DBD81DDE34A000E246DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A369DBD71DDE34A000E246DF /* GoogleService-Info.plist */; };
+		A3D595581D946B3800828F10 /* EncuestasView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D595571D946B3800828F10 /* EncuestasView.m */; };
+		A3D5955C1D946D4B00828F10 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D5955B1D946D4B00828F10 /* Reachability.m */; };
+		A3D595601D946D9100828F10 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D5955F1D946D9100828F10 /* MBProgressHUD.m */; };
+		A3D595641D94774B00828F10 /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D595631D94774B00828F10 /* MenuView.m */; };
+		A3D595681D9479E300828F10 /* PerfilView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D595671D9479E300828F10 /* PerfilView.m */; };
+		A3FCD8A31D94274C007EC99C /* OfertaInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FCD8A21D94274C007EC99C /* OfertaInfo.m */; };
+		A3FCD8A71D9432F0007EC99C /* LocalesServiciosView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FCD8A61D9432F0007EC99C /* LocalesServiciosView.m */; };
+		A3FCD8AA1D94334B007EC99C /* CellLocalesServiciosView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FCD8A91D94334B007EC99C /* CellLocalesServiciosView.m */; };
+		A3FCD8AD1D9438CA007EC99C /* LocalesServiciosInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FCD8AC1D9438CA007EC99C /* LocalesServiciosInfo.m */; };
+		A3FCD8B11D943CF2007EC99C /* NoticiasView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FCD8B01D943CF2007EC99C /* NoticiasView.m */; };
+		A3FCD8B41D943D3E007EC99C /* NoticiaImagen.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FCD8B31D943D3E007EC99C /* NoticiaImagen.m */; };
+		A3FCD8B71D943D77007EC99C /* NoticiaVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FCD8B61D943D77007EC99C /* NoticiaVideo.m */; };
+		A3FCD8BA1D943EEB007EC99C /* CellNoticiasView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FCD8B91D943EEB007EC99C /* CellNoticiasView.m */; };
+		A3FCD8BE1D944966007EC99C /* PremiosView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FCD8BD1D944966007EC99C /* PremiosView.m */; };
+		A3FCD8C11D9449A6007EC99C /* PremiosInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FCD8C01D9449A6007EC99C /* PremiosInfo.m */; };
+		A3FCD8C41D9449E0007EC99C /* CellPremiosView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FCD8C31D9449E0007EC99C /* CellPremiosView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +72,49 @@
 		A350C4A91D932F3600452F8D /* MallAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MallAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A350C4AD1D932F3600452F8D /* MallAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MallAppUITests.m; sourceTree = "<group>"; };
 		A350C4AF1D932F3600452F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A350C4BC1D93309D00452F8D /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		A350C4BD1D93309D00452F8D /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		A350C4C01D933A3500452F8D /* OfertaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfertaView.h; sourceTree = "<group>"; };
+		A350C4C11D933A3500452F8D /* OfertaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfertaView.m; sourceTree = "<group>"; };
+		A350C4C41D93407000452F8D /* CellOfertaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellOfertaView.h; sourceTree = "<group>"; };
+		A350C4C51D93407000452F8D /* CellOfertaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellOfertaView.m; sourceTree = "<group>"; };
+		A369DBD61DDE1DB000E246DF /* MallApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MallApp.entitlements; sourceTree = "<group>"; };
+		A369DBD71DDE34A000E246DF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A3D595561D946B3800828F10 /* EncuestasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncuestasView.h; sourceTree = "<group>"; };
+		A3D595571D946B3800828F10 /* EncuestasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncuestasView.m; sourceTree = "<group>"; };
+		A3D5955A1D946D4B00828F10 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		A3D5955B1D946D4B00828F10 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		A3D5955E1D946D9100828F10 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		A3D5955F1D946D9100828F10 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		A3D595621D94774B00828F10 /* MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
+		A3D595631D94774B00828F10 /* MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
+		A3D595661D9479E300828F10 /* PerfilView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerfilView.h; sourceTree = "<group>"; };
+		A3D595671D9479E300828F10 /* PerfilView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerfilView.m; sourceTree = "<group>"; };
+		A3FCD8A11D94274C007EC99C /* OfertaInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfertaInfo.h; sourceTree = "<group>"; };
+		A3FCD8A21D94274C007EC99C /* OfertaInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfertaInfo.m; sourceTree = "<group>"; };
+		A3FCD8A51D9432F0007EC99C /* LocalesServiciosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalesServiciosView.h; sourceTree = "<group>"; };
+		A3FCD8A61D9432F0007EC99C /* LocalesServiciosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalesServiciosView.m; sourceTree = "<group>"; };
+		A3FCD8A81D94334B007EC99C /* CellLocalesServiciosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellLocalesServiciosView.h; sourceTree = "<group>"; };
+		A3FCD8A91D94334B007EC99C /* CellLocalesServiciosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellLocalesServiciosView.m; sourceTree = "<group>"; };
+		A3FCD8AB1D9438CA007EC99C /* LocalesServiciosInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalesServiciosInfo.h; sourceTree = "<group>"; };
+		A3FCD8AC1D9438CA007EC99C /* LocalesServiciosInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalesServiciosInfo.m; sourceTree = "<group>"; };
+		A3FCD8AF1D943CF2007EC99C /* NoticiasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoticiasView.h; sourceTree = "<group>"; };
+		A3FCD8B01D943CF2007EC99C /* NoticiasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoticiasView.m; sourceTree = "<group>"; };
+		A3FCD8B21D943D3E007EC99C /* NoticiaImagen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoticiaImagen.h; sourceTree = "<group>"; };
+		A3FCD8B31D943D3E007EC99C /* NoticiaImagen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoticiaImagen.m; sourceTree = "<group>"; };
+		A3FCD8B51D943D77007EC99C /* NoticiaVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoticiaVideo.h; sourceTree = "<group>"; };
+		A3FCD8B61D943D77007EC99C /* NoticiaVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoticiaVideo.m; sourceTree = "<group>"; };
+		A3FCD8B81D943EEB007EC99C /* CellNoticiasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellNoticiasView.h; sourceTree = "<group>"; };
+		A3FCD8B91D943EEB007EC99C /* CellNoticiasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellNoticiasView.m; sourceTree = "<group>"; };
+		A3FCD8BC1D944966007EC99C /* PremiosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PremiosView.h; sourceTree = "<group>"; };
+		A3FCD8BD1D944966007EC99C /* PremiosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PremiosView.m; sourceTree = "<group>"; };
+		A3FCD8BF1D9449A6007EC99C /* PremiosInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PremiosInfo.h; sourceTree = "<group>"; };
+		A3FCD8C01D9449A6007EC99C /* PremiosInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PremiosInfo.m; sourceTree = "<group>"; };
+		A3FCD8C21D9449E0007EC99C /* CellPremiosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellPremiosView.h; sourceTree = "<group>"; };
+		A3FCD8C31D9449E0007EC99C /* CellPremiosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellPremiosView.m; sourceTree = "<group>"; };
+		CCC26258529DEF98999D3077 /* Pods-MallApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MallApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MallApp/Pods-MallApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E51686C230D9123D34E88814 /* Pods-MallApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MallApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MallApp/Pods-MallApp.release.xcconfig"; sourceTree = "<group>"; };
+		EA085B1AF3D5E7D00D5B8F13 /* libPods-MallApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MallApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F160F59F8E9FBB59E939998 /* libPods-MallApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +143,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71F148C3752E71AAF1750E9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCC26258529DEF98999D3077 /* Pods-MallApp.debug.xcconfig */,
+				E51686C230D9123D34E88814 /* Pods-MallApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9E2F1EE4597F00E7E563034D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA085B1AF3D5E7D00D5B8F13 /* libPods-MallApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A350C47C1D932F3600452F8D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +167,8 @@
 				A350C4A11D932F3600452F8D /* MallAppTests */,
 				A350C4AC1D932F3600452F8D /* MallAppUITests */,
 				A350C4861D932F3600452F8D /* Products */,
+				71F148C3752E71AAF1750E9D /* Pods */,
+				9E2F1EE4597F00E7E563034D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +185,18 @@
 		A350C4871D932F3600452F8D /* MallApp */ = {
 			isa = PBXGroup;
 			children = (
+				A369DBD61DDE1DB000E246DF /* MallApp.entitlements */,
+				A3D595651D9479CE00828F10 /* perfil */,
+				A3D595611D94773500828F10 /* menu */,
+				A3D5955D1D946D6A00828F10 /* MBProgressHUD */,
+				A3D595591D946D3D00828F10 /* internet */,
+				A3D595551D946B1800828F10 /* encuestas */,
+				A3FCD8BB1D944950007EC99C /* premios */,
+				A3FCD8AE1D943CB8007EC99C /* noticias */,
+				A3FCD8A41D9432D0007EC99C /* locales y servicios */,
+				A350C4C31D93403B00452F8D /* cells */,
+				A350C4BF1D9339F900452F8D /* ofertas */,
+				A350C4BB1D93308800452F8D /* swrevealviewcontroller */,
 				A350C48B1D932F3600452F8D /* AppDelegate.h */,
 				A350C48C1D932F3600452F8D /* AppDelegate.m */,
 				A350C48E1D932F3600452F8D /* ViewController.h */,
@@ -108,6 +204,7 @@
 				A350C4911D932F3600452F8D /* Main.storyboard */,
 				A350C4941D932F3600452F8D /* Assets.xcassets */,
 				A350C4961D932F3600452F8D /* LaunchScreen.storyboard */,
+				A369DBD71DDE34A000E246DF /* GoogleService-Info.plist */,
 				A350C4991D932F3600452F8D /* Info.plist */,
 				A350C4881D932F3600452F8D /* Supporting Files */,
 			);
@@ -140,6 +237,121 @@
 			path = MallAppUITests;
 			sourceTree = "<group>";
 		};
+		A350C4BB1D93308800452F8D /* swrevealviewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				A350C4BC1D93309D00452F8D /* SWRevealViewController.h */,
+				A350C4BD1D93309D00452F8D /* SWRevealViewController.m */,
+			);
+			name = swrevealviewcontroller;
+			sourceTree = "<group>";
+		};
+		A350C4BF1D9339F900452F8D /* ofertas */ = {
+			isa = PBXGroup;
+			children = (
+				A350C4C01D933A3500452F8D /* OfertaView.h */,
+				A350C4C11D933A3500452F8D /* OfertaView.m */,
+				A3FCD8A11D94274C007EC99C /* OfertaInfo.h */,
+				A3FCD8A21D94274C007EC99C /* OfertaInfo.m */,
+			);
+			name = ofertas;
+			sourceTree = "<group>";
+		};
+		A350C4C31D93403B00452F8D /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				A350C4C41D93407000452F8D /* CellOfertaView.h */,
+				A350C4C51D93407000452F8D /* CellOfertaView.m */,
+				A3FCD8A81D94334B007EC99C /* CellLocalesServiciosView.h */,
+				A3FCD8A91D94334B007EC99C /* CellLocalesServiciosView.m */,
+				A3FCD8B81D943EEB007EC99C /* CellNoticiasView.h */,
+				A3FCD8B91D943EEB007EC99C /* CellNoticiasView.m */,
+				A3FCD8C21D9449E0007EC99C /* CellPremiosView.h */,
+				A3FCD8C31D9449E0007EC99C /* CellPremiosView.m */,
+			);
+			name = cells;
+			sourceTree = "<group>";
+		};
+		A3D595551D946B1800828F10 /* encuestas */ = {
+			isa = PBXGroup;
+			children = (
+				A3D595561D946B3800828F10 /* EncuestasView.h */,
+				A3D595571D946B3800828F10 /* EncuestasView.m */,
+			);
+			name = encuestas;
+			sourceTree = "<group>";
+		};
+		A3D595591D946D3D00828F10 /* internet */ = {
+			isa = PBXGroup;
+			children = (
+				A3D5955A1D946D4B00828F10 /* Reachability.h */,
+				A3D5955B1D946D4B00828F10 /* Reachability.m */,
+			);
+			name = internet;
+			sourceTree = "<group>";
+		};
+		A3D5955D1D946D6A00828F10 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				A3D5955E1D946D9100828F10 /* MBProgressHUD.h */,
+				A3D5955F1D946D9100828F10 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		A3D595611D94773500828F10 /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				A3D595621D94774B00828F10 /* MenuView.h */,
+				A3D595631D94774B00828F10 /* MenuView.m */,
+			);
+			name = menu;
+			sourceTree = "<group>";
+		};
+		A3D595651D9479CE00828F10 /* perfil */ = {
+			isa = PBXGroup;
+			children = (
+				A3D595661D9479E300828F10 /* PerfilView.h */,
+				A3D595671D9479E300828F10 /* PerfilView.m */,
+			);
+			name = perfil;
+			sourceTree = "<group>";
+		};
+		A3FCD8A41D9432D0007EC99C /* locales y servicios */ = {
+			isa = PBXGroup;
+			children = (
+				A3FCD8A51D9432F0007EC99C /* LocalesServiciosView.h */,
+				A3FCD8A61D9432F0007EC99C /* LocalesServiciosView.m */,
+				A3FCD8AB1D9438CA007EC99C /* LocalesServiciosInfo.h */,
+				A3FCD8AC1D9438CA007EC99C /* LocalesServiciosInfo.m */,
+			);
+			name = "locales y servicios";
+			sourceTree = "<group>";
+		};
+		A3FCD8AE1D943CB8007EC99C /* noticias */ = {
+			isa = PBXGroup;
+			children = (
+				A3FCD8AF1D943CF2007EC99C /* NoticiasView.h */,
+				A3FCD8B01D943CF2007EC99C /* NoticiasView.m */,
+				A3FCD8B21D943D3E007EC99C /* NoticiaImagen.h */,
+				A3FCD8B31D943D3E007EC99C /* NoticiaImagen.m */,
+				A3FCD8B51D943D77007EC99C /* NoticiaVideo.h */,
+				A3FCD8B61D943D77007EC99C /* NoticiaVideo.m */,
+			);
+			name = noticias;
+			sourceTree = "<group>";
+		};
+		A3FCD8BB1D944950007EC99C /* premios */ = {
+			isa = PBXGroup;
+			children = (
+				A3FCD8BC1D944966007EC99C /* PremiosView.h */,
+				A3FCD8BD1D944966007EC99C /* PremiosView.m */,
+				A3FCD8BF1D9449A6007EC99C /* PremiosInfo.h */,
+				A3FCD8C01D9449A6007EC99C /* PremiosInfo.m */,
+			);
+			name = premios;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +359,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A350C4B21D932F3600452F8D /* Build configuration list for PBXNativeTarget "MallApp" */;
 			buildPhases = (
+				B143E608F4F807EEEBCF7E9C /* Check Pods Manifest.lock */,
 				A350C4811D932F3600452F8D /* Sources */,
 				A350C4821D932F3600452F8D /* Frameworks */,
 				A350C4831D932F3600452F8D /* Resources */,
+				B3CB1F11C142966280C371BB /* Embed Pods Frameworks */,
+				AC85F71936C9315DC86855C5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,6 +424,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = V82XPGG9UD;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					A350C49D1D932F3600452F8D = {
 						CreatedOnToolsVersion = 8.0;
@@ -250,6 +470,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A350C4981D932F3600452F8D /* LaunchScreen.storyboard in Resources */,
+				A369DBD81DDE34A000E246DF /* GoogleService-Info.plist in Resources */,
 				A350C4951D932F3600452F8D /* Assets.xcassets in Resources */,
 				A350C4931D932F3600452F8D /* Main.storyboard in Resources */,
 			);
@@ -271,14 +492,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AC85F71936C9315DC86855C5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MallApp/Pods-MallApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B143E608F4F807EEEBCF7E9C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B3CB1F11C142966280C371BB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MallApp/Pods-MallApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A350C4811D932F3600452F8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3FCD8AA1D94334B007EC99C /* CellLocalesServiciosView.m in Sources */,
+				A3D595681D9479E300828F10 /* PerfilView.m in Sources */,
+				A3FCD8A31D94274C007EC99C /* OfertaInfo.m in Sources */,
+				A3FCD8AD1D9438CA007EC99C /* LocalesServiciosInfo.m in Sources */,
+				A350C4C61D93407000452F8D /* CellOfertaView.m in Sources */,
 				A350C4901D932F3600452F8D /* ViewController.m in Sources */,
+				A3FCD8B71D943D77007EC99C /* NoticiaVideo.m in Sources */,
+				A3D595641D94774B00828F10 /* MenuView.m in Sources */,
+				A3FCD8BE1D944966007EC99C /* PremiosView.m in Sources */,
+				A3D595601D946D9100828F10 /* MBProgressHUD.m in Sources */,
 				A350C48D1D932F3600452F8D /* AppDelegate.m in Sources */,
+				A3FCD8B41D943D3E007EC99C /* NoticiaImagen.m in Sources */,
+				A3FCD8BA1D943EEB007EC99C /* CellNoticiasView.m in Sources */,
+				A3D5955C1D946D4B00828F10 /* Reachability.m in Sources */,
 				A350C48A1D932F3600452F8D /* main.m in Sources */,
+				A3FCD8B11D943CF2007EC99C /* NoticiasView.m in Sources */,
+				A3D595581D946B3800828F10 /* EncuestasView.m in Sources */,
+				A3FCD8C11D9449A6007EC99C /* PremiosInfo.m in Sources */,
+				A3FCD8C41D9449E0007EC99C /* CellPremiosView.m in Sources */,
+				A350C4C21D933A3500452F8D /* OfertaView.m in Sources */,
+				A350C4BE1D93309D00452F8D /* SWRevealViewController.m in Sources */,
+				A3FCD8A71D9432F0007EC99C /* LocalesServiciosView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,9 +711,15 @@
 		};
 		A350C4B31D932F3600452F8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCC26258529DEF98999D3077 /* Pods-MallApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MallApp/MallApp.entitlements;
 				DEVELOPMENT_TEAM = V82XPGG9UD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MallApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.grupoiris.MallApp;
@@ -435,9 +729,15 @@
 		};
 		A350C4B41D932F3600452F8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E51686C230D9123D34E88814 /* Pods-MallApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MallApp/MallApp.entitlements;
 				DEVELOPMENT_TEAM = V82XPGG9UD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MallApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.grupoiris.MallApp;
@@ -514,6 +814,7 @@
 				A350C4B41D932F3600452F8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A350C4B51D932F3600452F8D /* Build configuration list for PBXNativeTarget "MallAppTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +823,7 @@
 				A350C4B71D932F3600452F8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A350C4B81D932F3600452F8D /* Build configuration list for PBXNativeTarget "MallAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +832,7 @@
 				A350C4BA1D932F3600452F8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
